@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  font-size: 100%;
+  font-weight: normal;
+  padding: 12px 48px;
+  font-weight: 500;
+  border-bottom: 2px solid grey;
+  justify-content: space-between;
+  height: 80px;
+
+}
+
+html, body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header-p {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.left {
+  display: flex;
+  width: 20%;
+  border-right: 2px solid grey;
+  height: 100%;
+}
+
+
+.right {
+  display: flex;
+  width: 80%;
+  height: 100%;
+}
+
+.my-picture {
+  margin-left: 16px;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid grey;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
