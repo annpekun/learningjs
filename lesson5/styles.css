@@ -1,0 +1,13 @@
+body, form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 300px;
+}
+
+* {
+    margin: 4px;
+    padding: 4px;
+}
