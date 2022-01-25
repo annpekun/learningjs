@@ -1,0 +1,32 @@
+body {
+  margin: 10px auto;
+  width: 450px;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 1ch;
+  font-size: 2ch;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.pane {
+  background: #c4df9b;
+  padding: 10px 20px 10px;
+  border-top: solid 2px #c4df9b;
+}
+
+.remove-button {
+  font-size: 110%;
+  color: black;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

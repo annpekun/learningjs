@@ -1,0 +1,28 @@
+.arrow {
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-size: 25px;
+  line-height: 25px;
+  color: black;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+ul {
+  height: 120px;
+  width: 10000px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}

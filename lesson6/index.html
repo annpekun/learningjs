@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My First HTML</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form name="my-form" onsubmit="return false">
+    <label for="name">Name</label>
+    <input id="name" type="text" />
+    <label>Sex</label>
+    <p>
+      <input id="female" type="radio" value="female" name="sex" />
+      <label for="female">Female</label>
+    </p>
+    <p>
+      <input id="male" type="radio" value="male" name="sex" />
+      <label for="male">Male</label>
+    </p>
+    <label>Parents</label>
+    <p>
+      <input id="mom" type="checkbox" value="mom" class="parents" />
+      <label for="mom">Mom</label>
+    </p>
+    <p>
+      <input id="dad" type="checkbox" value="dad" class="parents" />
+      <label for="dad">Dad</label>
+    </p>
+    <button onclick="showAlert()">Show alert with data</button>
+  </form>
+  <span id="result"></span>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
